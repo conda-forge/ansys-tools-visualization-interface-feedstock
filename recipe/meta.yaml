@@ -1,5 +1,5 @@
 {% set name = "ansys-tools-visualization-interface" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ansys_tools_visualization_interface-{{ version }}.tar.gz
-  sha256: 8e45d742da778802a47b2915f191f76e4bd32bc8c6ede2bc76b433d0ad719686
+  sha256: 6cf70363df01460b9c16f4c8960ad63834f9476e7ebebefc5db187f53d60ac81
 
 build:
   noarch: python
@@ -23,7 +23,7 @@ requirements:
     - python >=3.9,<4.0
     - pyvista >=0.43.0,<1
     - beartype >=0.17.0,<1
-    - websockets >=12.0,<13
+    - websockets >=12.0,<14
     - trame >=3.6.0,<4
     - trame-vtk >=2.8.7,<3
     - trame-vuetify >=2.4.3,<3
