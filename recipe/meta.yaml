@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "ansys-tools-visualization-interface" %}
-{% set version = "0.8.3" %}
+{% set version = "0.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ansys_tools_visualization_interface-{{ version }}.tar.gz
-  sha256: b1ff45fd3027d645ca4d20eda1de151e12caced9cb88521a2107a25924c218c7
+  sha256: fde6399b9c56a1c59d6adafe5e20e3d298b07cc2a395a716114aea86ed2375e9
 
 build:
   noarch: python
